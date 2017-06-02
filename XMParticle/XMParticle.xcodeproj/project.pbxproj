@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9107FFC1EDFF74B0075735B /* UIScrollView+XMScrollParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = B9107FFB1EDFF74B0075735B /* UIScrollView+XMScrollParticle.m */; };
+		B9107FFF1EDFF8500075735B /* XMScrollParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = B9107FFE1EDFF8500075735B /* XMScrollParticle.m */; };
+		B91080021EE000500075735B /* XMParticleConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B91080011EE000500075735B /* XMParticleConst.m */; };
 		B97996A91ED6E0110048B4FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B97996A81ED6E0110048B4FE /* main.m */; };
 		B97996AC1ED6E0110048B4FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B97996AB1ED6E0110048B4FE /* AppDelegate.m */; };
 		B97996AF1ED6E0110048B4FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97996AE1ED6E0110048B4FE /* ViewController.m */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9107FFA1EDFF74B0075735B /* UIScrollView+XMScrollParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XMScrollParticle.h"; sourceTree = "<group>"; };
+		B9107FFB1EDFF74B0075735B /* UIScrollView+XMScrollParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XMScrollParticle.m"; sourceTree = "<group>"; };
+		B9107FFD1EDFF8500075735B /* XMScrollParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMScrollParticle.h; sourceTree = "<group>"; };
+		B9107FFE1EDFF8500075735B /* XMScrollParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMScrollParticle.m; sourceTree = "<group>"; };
+		B91080001EE000500075735B /* XMParticleConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMParticleConst.h; sourceTree = "<group>"; };
+		B91080011EE000500075735B /* XMParticleConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMParticleConst.m; sourceTree = "<group>"; };
 		B97996A41ED6E0110048B4FE /* XMParticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMParticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97996A81ED6E0110048B4FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B97996AA1ED6E0110048B4FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +97,12 @@
 			children = (
 				B97996BF1ED6E0920048B4FE /* UITableView+XMScrollParticle.h */,
 				B97996C01ED6E0920048B4FE /* UITableView+XMScrollParticle.m */,
+				B9107FFA1EDFF74B0075735B /* UIScrollView+XMScrollParticle.h */,
+				B9107FFB1EDFF74B0075735B /* UIScrollView+XMScrollParticle.m */,
+				B9107FFD1EDFF8500075735B /* XMScrollParticle.h */,
+				B9107FFE1EDFF8500075735B /* XMScrollParticle.m */,
+				B91080001EE000500075735B /* XMParticleConst.h */,
+				B91080011EE000500075735B /* XMParticleConst.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -165,7 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B97996AF1ED6E0110048B4FE /* ViewController.m in Sources */,
+				B91080021EE000500075735B /* XMParticleConst.m in Sources */,
+				B9107FFC1EDFF74B0075735B /* UIScrollView+XMScrollParticle.m in Sources */,
 				B97996C11ED6E0920048B4FE /* UITableView+XMScrollParticle.m in Sources */,
+				B9107FFF1EDFF8500075735B /* XMScrollParticle.m in Sources */,
 				B97996AC1ED6E0110048B4FE /* AppDelegate.m in Sources */,
 				B97996A91ED6E0110048B4FE /* main.m in Sources */,
 			);
